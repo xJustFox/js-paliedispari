@@ -19,15 +19,23 @@ function evenOrOdd(sumNum) {
 }
 
 let userChoice = prompt("Pari o Dispari?");
+
+while (userChoice.toLowerCase() != "pari" && userChoice.toLowerCase() != "dispari") {
+    alert("Selezione non valida, selezionora esclusivamente 'pari' o 'dispari'");
+    
+    userChoice = prompt("Pari o Dispari?");
+}
+
 let userNum = parseInt(prompt("Inserisci un numero da 1 a 5"));
-let pcNum = randNum();
-let sum = sumNum(userNum, pcNum);
 
 while (userNum > 5) {
     alert("Hai inserito un numero maggiore di 5, non va bene...");
     
     userNum = parseInt(prompt("Inserisci un numero da 1 a 5"));
 }
+
+let pcNum = randNum();
+let sum = sumNum(userNum, pcNum);
 
 alert("l'avversario tira " + pcNum);
 
