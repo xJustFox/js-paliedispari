@@ -30,7 +30,7 @@ Dichiariamo chi ha vinto.
 - 10 Utilizza un `else if` per decretare il vincitore;<br>
     - 10.1 Visualizzare a schermo il vincitore;
 
-#### Pari e Dispari - Problem Solving:
+#### Palidroma - Problem Solving:
 - 1 Definisci la funzione `palindromeWord(word)`;<br>
     - 1.1 Inizializza la variabile `reverseWord`;<br>
         - 1.1.1 Assegna il valore `word` utilizzando su di essa `.split("") .reverse() .join("")`;<br>
