@@ -11,3 +11,21 @@ Generiamo un numero random (sempre da 1 a 5) per il computer (usando una funzion
 Sommiamo i due numeri <br>
 Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione) <br>
 Dichiariamo chi ha vinto. 
+
+
+#### Pari e Dispari - Problem Solving:
+1- Definisci la funzione `randNum()` che genererà un numero randomico da 1 a 5; <br>
+2- Definisci la funzione `sumNum(num1, num2)` che sommera i numeri del giocatore e del bot;<br>
+3- Definisci la funzione `everOrOdd(sumNum)` che controllerà se la somma è pari o dispari;<br>
+4- Inizializza la variabile `userChoise`;<br>
+    4.1- Permetti all'utente di inserire del testo;<br>
+5- Inizializza la variabile `userNum`;<br>
+    5.1- Permetti all'utente di inserire un numero;<br>
+6- Inizializza la variabile `pcNum`;<br>
+    5.1- Assegnagli la funzione `randNum()`;<br>
+7- Inizializza la variabile `sum`;<br>
+    5.1- Assegnagli la funzione `sumNum(userNum, pcNum)`, inserendo come valori della funzione `userNum` e `pcNum`;<br>
+8- Utilizza un loop `while` per controllare che il giocatore inserisca un numero da 1 a 5;<br>
+9- Visualizzare a schermo il numero tirato dal bot;<br>
+10- Utilizza un `else if` per decretare il vincitore.<br>
+    10-1- Visualizzare a schermo il vincitore.
