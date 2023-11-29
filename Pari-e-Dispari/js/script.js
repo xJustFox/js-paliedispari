@@ -36,13 +36,14 @@ while (userNum > 5) {
 
 let pcNum = randNum();
 let sum = sumNum(userNum, pcNum);
+let result = evenOrOdd(sum);
 
 alert("l'avversario tira " + pcNum);
 
-if (evenOrOdd(sum) == true && userChoice.toLowerCase() == "pari") {
+if (result == true && userChoice.toLowerCase() == "pari") {
     alert(`La somma è ${sum}, Hai vinto!`);
 } 
-else if (evenOrOdd(sum) == false && userChoice.toLowerCase() == "dispari") {
+else if (result == false && userChoice.toLowerCase() == "dispari") {
     alert(`La somma è ${sum}, Hai vinto!`);
 }
 else{
